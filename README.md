@@ -1,16 +1,33 @@
-# React + Vite
+# Pak Tourism 🌄🇵🇰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pak Tourism is a React-based web application built with Vite that showcases the natural beauty, culture, cuisine, and tourist destinations of Pakistan.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Beautiful UI with reusable React components
+- Sections for cities, valleys, peaks, culture, and cuisine
+- Responsive navigation bar and footer
+- Fast development using Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+src/
+ ┣ assets/
+ ┣ Components/
+ ┃ ┣ Home.jsx
+ ┃ ┣ Navbar.jsx
+ ┃ ┣ Footer.jsx
+ ┃ ┣ Cities.jsx
+ ┃ ┣ Valleys.jsx
+ ┃ ┣ Peaks.jsx
+ ┃ ┣ Cultures.jsx
+ ┃ ┣ Cuisine.jsx
+ ┃ ┗ VideoCard.jsx
+ ┣ App.jsx
+ ┣ main.jsx
+ ┣ App.css
+ ┗ index.css
